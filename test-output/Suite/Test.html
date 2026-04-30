@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 22 11:14:03 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9850 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.usermanagement.tests.LoginTest.loginSmokeTest()'><b>loginSmokeTest</b><br>Test class: com.qa.usermanagement.tests.LoginTest<br/>
+<a href="#Output-1492822331" onClick='toggleBox("Output-1492822331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1492822331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1492822331">
+usnElementFlag is true 	|checkUsnElementDisplayed passed<br/>
+pswElementFlag is true 	|checkPswElementDisplayed passed<br/>
+loginElementFlag is true 	|checkLoginElementDisplayed passed<br/>
+createAccElementFlag is true 	|checkCreateAccElementDisplayed passed<br/>
+usnElementFlag1 is true 	|checkUsnElementEnabled passed<br/>
+pswElementFlag1 is true 	|checkPswElementEnabled passed<br/>
+loginElementFlag1 is true 	|checkLoginElementEnabled passed<br/>
+createAccElementFlag1 is true 	|checkCreateAccElementEnabled passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.LoginTest@5609159b</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.createUser()'><b>createUser</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br>Parameters: pearlie.dach, Kyle Schmidt, perry.toy@yahoo.com, 5B#^Z75<br/>
+<a href="#Output-247855428" onClick='toggleBox("Output-247855428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-247855428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-247855428">
+The entered is :		userName :pearlie.dach	fullName :Kyle Schmidt	email :perry.toy@yahoo.com	password :5B#^Z75<br/>
+Text value of registrationSuccess is	Registration Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.createUser()'><b>createUser</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br>Parameters: ocie.moore, Angelika Waelchi, wilson.bogan@yahoo.com, 4!&n6mm<br/>
+<a href="#Output-1640529691" onClick='toggleBox("Output-1640529691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640529691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640529691">
+The entered is :		userName :ocie.moore	fullName :Angelika Waelchi	email :wilson.bogan@yahoo.com	password :4!&n6mm<br/>
+Text value of registrationSuccess is	Registration Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.registationPgSmokeTest()'><b>registationPgSmokeTest</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br/>
+<a href="#Output-32737623" onClick='toggleBox("Output-32737623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32737623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32737623">
+checkUsnElementDisplayed | Passed<br/>
+checkUsnElementENabled | Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.createUser()'><b>createUser</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br>Parameters: jeanine.heaney, Dr. Beverly Will, ken.simonis@gmail.com, L#317MU<br/>
+<a href="#Output-2139895366" onClick='toggleBox("Output-2139895366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139895366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139895366">
+The entered is :		userName :jeanine.heaney	fullName :Dr. Beverly Will	email :ken.simonis@gmail.com	password :L#317MU<br/>
+Text value of registrationSuccess is	Registration Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.createUser()'><b>createUser</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br>Parameters: jess.west, Mrs. Philip Fahey, samella.reichel@gmail.com, hdb7AK!<br/>
+<a href="#Output-2000728235" onClick='toggleBox("Output-2000728235", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000728235" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000728235">
+The entered is :		userName :jess.west	fullName :Mrs. Philip Fahey	email :samella.reichel@gmail.com	password :hdb7AK!<br/>
+Text value of registrationSuccess is	Registration Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.RegisterationTest.createUser()'><b>createUser</b><br>Test class: com.qa.usermanagement.tests.RegisterationTest<br>Parameters: beaulah.schiller, Su Wilkinson, hee.kreiger@yahoo.com, %sdZUiy<br/>
+<a href="#Output-297795507" onClick='toggleBox("Output-297795507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-297795507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-297795507">
+The entered is :		userName :beaulah.schiller	fullName :Su Wilkinson	email :hee.kreiger@yahoo.com	password :%sdZUiy<br/>
+Text value of registrationSuccess is	Registration Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.RegisterationTest@157853da</td></tr>
+<tr>
+<td title='com.qa.usermanagement.tests.LoginTest.validateLogin()'><b>validateLogin</b><br>Test class: com.qa.usermanagement.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.usermanagement.tests.LoginTest@5609159b</td></tr>
+</table><p>
+</body>
+</html>
