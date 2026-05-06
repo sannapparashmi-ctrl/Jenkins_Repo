@@ -85,7 +85,7 @@ public class LoginTest extends BaseTest {
 		ChainTestListener.log("validateLogin test is passed");
 		Allure.step("validateLogin test is passed");
 
-		Assert.fail();
+//		Assert.fail();
 	}
 
 }

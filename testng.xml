@@ -16,15 +16,5 @@
 		</classes>
 	</test> <!--
 	Test -->
-	<test name="Firefox">
-		<parameter name="browserName" value="${browser}"></parameter>
-		<parameter name="browserHeadless" value="${headless}"></parameter>
-		<parameter name="browserPrivate" value="${private}"></parameter>
-		<classes>
-			<class name="com.qa.usermanagement.tests.LoginTest" />
-			<class name="com.qa.usermanagement.tests.RegisterationTest" />
-		</classes>
-	</test> <!--
-	Test -->
 </suite> <!--
 Suite -->

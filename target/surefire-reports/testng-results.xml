@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The passed browser name ischrome]]>
+    </line>
+    <line>
+      <![CDATA[Running chrome browser in headless mode]]>
+    </line>
+    <line>
+      <![CDATA[The entered url ishttps://demoapps.qspiders.com/user-management/login]]>
+    </line>
+    <line>
+      <![CDATA[usnElementFlag is true |checkUsnElementDisplayed passed]]>
+    </line>
+    <line>
+      <![CDATA[pswElementFlag is true |checkPswElementDisplayed passed]]>
+    </line>
+    <line>
+      <![CDATA[loginElementFlag is true |checkLoginElementDisplayed passed]]>
+    </line>
+    <line>
+      <![CDATA[createAccElementFlag is true |checkCreateAccElementDisplayed passed]]>
+    </line>
+    <line>
+      <![CDATA[usnElementFlag1 is true |checkUsnElementEnabled passed]]>
+    </line>
+    <line>
+      <![CDATA[pswElementFlag1 is true |checkPswElementEnabled passed]]>
+    </line>
+    <line>
+      <![CDATA[loginElementFlag1 is true |checkLoginElementEnabled passed]]>
+    </line>
+    <line>
+      <![CDATA[createAccElementFlag1 is true |checkCreateAccElementEnabled passed]]>
+    </line>
+    <line>
+      <![CDATA[Terminating browser after all test classes executed]]>
+    </line>
+    <line>
+      <![CDATA[The passed browser name ischrome]]>
+    </line>
+    <line>
+      <![CDATA[Running chrome browser in headless mode]]>
+    </line>
+    <line>
+      <![CDATA[The entered url ishttps://demoapps.qspiders.com/user-management/login]]>
+    </line>
+    <line>
+      <![CDATA[checkUsnElementDisplayed | Passed]]>
+    </line>
+    <line>
+      <![CDATA[checkUsnElementENabled | Passed]]>
+    </line>
+    <line>
+      <![CDATA[The entered is :userName :leopoldo.skilesfullName :Dr. Jorge Ratkeemail :gilberte.koepp@yahoo.compassword :5ORAA3N]]>
+    </line>
+    <line>
+      <![CDATA[Text value of registrationSuccess isRegistration Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Terminating browser after all test classes executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-05-06T11:15:04 IST" name="RegressionSuite" finished-at="2026-05-06T11:15:35 IST" duration-ms="30762">
+    <groups>
+    </groups>
+    <test started-at="2026-05-06T11:15:04 IST" name="Chrome" finished-at="2026-05-06T11:15:35 IST" duration-ms="30762">
+      <class name="com.qa.usermanagement.tests.RegisterationTest">
+        <test-method is-config="true" signature="launchApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:18 IST" name="launchApplication" finished-at="2026-05-06T11:15:28 IST" duration-ms="10195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The passed browser name ischrome]]>
+            </line>
+            <line>
+              <![CDATA[Running chrome browser in headless mode]]>
+            </line>
+            <line>
+              <![CDATA[The entered url ishttps://demoapps.qspiders.com/user-management/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="getIntoRegistarationPage()[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:28 IST" name="getIntoRegistarationPage" finished-at="2026-05-06T11:15:29 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIntoRegistarationPage -->
+        <test-method signature="registationPgSmokeTest()[pri:-2147483648, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:29 IST" name="registationPgSmokeTest" finished-at="2026-05-06T11:15:30 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checkUsnElementDisplayed | Passed]]>
+            </line>
+            <line>
+              <![CDATA[checkUsnElementENabled | Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registationPgSmokeTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:30 IST" name="attachScreenshot" finished-at="2026-05-06T11:15:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registationPgSmokeTest status=SUCCESS method=RegisterationTest.registationPgSmokeTest()[pri:-2147483648, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756] output=checkUsnElementDisplayed | Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:31 IST" name="createUser" data-provider="generateData" finished-at="2026-05-06T11:15:34 IST" depends-on-methods="com.qa.usermanagement.tests.RegisterationTest.registationPgSmokeTest" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[leopoldo.skiles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dr. Jorge Ratke]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gilberte.koepp@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5ORAA3N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The entered is :userName :leopoldo.skilesfullName :Dr. Jorge Ratkeemail :gilberte.koepp@yahoo.compassword :5ORAA3N]]>
+            </line>
+            <line>
+              <![CDATA[Text value of registrationSuccess isRegistration Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:34 IST" name="attachScreenshot" finished-at="2026-05-06T11:15:34 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUser status=SUCCESS method=RegisterationTest.createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756] output=The entered is :userName :leopoldo.skilesfullName :Dr. Jorge Ratkeemail :gilberte.koepp@yahoo.compassword :5ORAA3N]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.qa.usermanagement.tests.RegisterationTest@59a2d756]" started-at="2026-05-06T11:15:34 IST" name="tearDownBrowser" finished-at="2026-05-06T11:15:35 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminating browser after all test classes executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- com.qa.usermanagement.tests.RegisterationTest -->
+      <class name="com.qa.usermanagement.tests.LoginTest">
+        <test-method is-config="true" signature="launchApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:04 IST" name="launchApplication" finished-at="2026-05-06T11:15:17 IST" duration-ms="12778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The passed browser name ischrome]]>
+            </line>
+            <line>
+              <![CDATA[Running chrome browser in headless mode]]>
+            </line>
+            <line>
+              <![CDATA[The entered url ishttps://demoapps.qspiders.com/user-management/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginSmokeTest()[pri:-2147483648, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:17 IST" name="loginSmokeTest" finished-at="2026-05-06T11:15:17 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[usnElementFlag is true |checkUsnElementDisplayed passed]]>
+            </line>
+            <line>
+              <![CDATA[pswElementFlag is true |checkPswElementDisplayed passed]]>
+            </line>
+            <line>
+              <![CDATA[loginElementFlag is true |checkLoginElementDisplayed passed]]>
+            </line>
+            <line>
+              <![CDATA[createAccElementFlag is true |checkCreateAccElementDisplayed passed]]>
+            </line>
+            <line>
+              <![CDATA[usnElementFlag1 is true |checkUsnElementEnabled passed]]>
+            </line>
+            <line>
+              <![CDATA[pswElementFlag1 is true |checkPswElementEnabled passed]]>
+            </line>
+            <line>
+              <![CDATA[loginElementFlag1 is true |checkLoginElementEnabled passed]]>
+            </line>
+            <line>
+              <![CDATA[createAccElementFlag1 is true |checkCreateAccElementEnabled passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginSmokeTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:18 IST" name="attachScreenshot" finished-at="2026-05-06T11:15:18 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSmokeTest status=SUCCESS method=LoginTest.loginSmokeTest()[pri:-2147483648, instance:com.qa.usermanagement.tests.LoginTest@16b76858] output=usnElementFlag is true |checkUsnElementDisplayed passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="validateLogin()[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:18 IST" name="validateLogin" finished-at="2026-05-06T11:15:18 IST" depends-on-methods="com.qa.usermanagement.tests.LoginTest.loginSmokeTest" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:18 IST" name="attachScreenshot" finished-at="2026-05-06T11:15:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLogin status=SUCCESS method=LoginTest.validateLogin()[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.qa.usermanagement.tests.LoginTest@16b76858]" started-at="2026-05-06T11:15:18 IST" name="tearDownBrowser" finished-at="2026-05-06T11:15:18 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminating browser after all test classes executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- com.qa.usermanagement.tests.LoginTest -->
+    </test> <!-- Chrome -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
