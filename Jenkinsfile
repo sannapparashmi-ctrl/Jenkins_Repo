@@ -9,8 +9,8 @@ tools {
 parameters {
     string(name: 'runnerFileName', defaultValue: 'testng.xml', description: 'Here we specify the name of testng.xml runner file which need to executed')
     choice(name: 'browserName', choices: ['chrome', 'firefox', 'edge'], description: 'CHROME,FIREFOX,EDGE Tests should be executed only in these browser platforms')
-    booleanParam(name: 'browserHeadlessMode', defaultValue: false, description: 'browserHeadlessMode : is to specify the headed more or not in execution cycle')
-    booleanParam(name: 'browserPrivateMode', defaultValue: false, description: 'browserPrivateMode is used to run in private mode or not')
+    booleanParam(name: 'browserHeadless', defaultValue: false, description: 'browserHeadless : is to specify the headed more or not in execution cycle')
+    booleanParam(name: 'browserPrivate', defaultValue: false, description: 'browserPrivate is used to run in private mode or not')
     }
 stages {
     stage('Clean Workspace') {
