@@ -31,7 +31,7 @@ stages {
     stage('Execute UI Tests') {
         steps {
             bat """
-            mvn test -DrunnerFileName=%runnerFileName% -Dbrowser=%browserName% -Dheadless=%browserHeadlessMode% -Dprivate=%browserPrivateMode% 
+            mvn test -DrunnerFileName=%runnerFileName% -Dbrowser=%browserName% -Dheadless=%browserHeadless% -Dprivate=%browserPrivate% 
             """
         }
     }
@@ -50,7 +50,7 @@ stages {
                     bat """
 					mvn test ^
 					-DsuiteXmlFile=${failedSuitePath} ^
-					-Dbrowser=%browserName% ^
+					-Dbrowser=%browser% ^
 					-Dheadless=%headless% ^
 					-Dprivate=%private%
 					"""
