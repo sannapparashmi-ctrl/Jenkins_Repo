@@ -7,6 +7,7 @@ public class DemoTestCase {
 @Test
 	public static void demo() {
 		Reporter.log("This is demo test case",true);
+		Reporter.log("test",true);
 	}
 	
 	
