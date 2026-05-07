@@ -1,8 +1,10 @@
 pipeline {
-agent { label 'windows' }   // Ensures it runs on Windows
+	    agent any
+
+	//agent { label 'windows' }   // Ensures it runs on Windows
 tools {
-    maven 'Maven'
-    jdk 'JDK17'
+    maven 'Maven_Home'
+    jdk 'JAVA_HOME'
 }
 parameters {
     string(name: 'runnerFileName', defaultValue: 'testng.xml', description: 'Here we specify the name of testng.xml runner file which need to executed')
@@ -18,7 +20,7 @@ stages {
     }
     stage('Checkout Code') {
         steps {
-            git branch: 'master', url: 'https://github.com/Rahul-913/10_30-Batch_JenkinsExecution.git/'
+            git branch: 'master', url: 'https://github.com/sannapparashmi-ctrl/Jenkins_Repo.git'
         }
     }
     stage('Build Project') {
@@ -29,7 +31,7 @@ stages {
     stage('Execute UI Tests') {
         steps {
             bat """
-            mvn test -DrunnerFileName=%runnerFileName% -Dbrowser=%browserName% -Dheadless=%browserHeadlessMode% -Dprivate=%browserPrivateMode%
+            mvn test -DrunnerFileName=%runnerFileName% -Dbrowser=%browserName% -Dheadless=%browserHeadlessMode% -Dprivate=%browserPrivateMode% 
             """
         }
     }
@@ -46,13 +48,12 @@ stages {
                     echo "Re-running failed tests from: ${failedSuitePath}"
 
                     bat """
-                    mvn test ^
-                    -DsuiteXmlFile=${failedSuitePath} ^
-                    -Dbrowser=%browser% ^
-                    -Dheadless=%headless% ^
-                    -Dincognito=%incognito% ^
-                    -DtestUrl=%testUrl%
-                    """
+					mvn test ^
+					-DsuiteXmlFile=${failedSuitePath} ^
+					-Dbrowser=%browserName% ^
+					-Dheadless=%browserHeadlessMode% ^
+					-Dprivate=%browserPrivateMode%
+					"""
                 } else {
                     echo "No failed tests found"
                 }
