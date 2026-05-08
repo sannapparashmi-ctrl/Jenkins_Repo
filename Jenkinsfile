@@ -3,7 +3,7 @@ pipeline {
 
 	//agent { label 'windows' }   // Ensures it runs on Windows
 tools {
-    maven 'MAVEN_HOME'
+    maven 'Maven_Home'
     jdk 'JAVA_HOME'
 }
 parameters {
